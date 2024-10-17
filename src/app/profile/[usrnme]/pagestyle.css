@@ -1,0 +1,32 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.input-message{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border: 1px solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 7px;
+}
+
+.input-message:hover{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+
+.send-the-mssg{
+    background-color: azure;
+    border-radius: 4px;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+}

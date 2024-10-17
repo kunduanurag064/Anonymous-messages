@@ -1,0 +1,99 @@
+
+  .settings-container {
+    position: relative; /* To allow the floating menu to be positioned relative to the logo */
+    display: inline-block;
+  }
+  
+  /* Settings logo (⚙️ icon or an image) */
+  .settings-logo {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  /* Options menu */
+  .options-menu {
+    position: absolute;
+    top: 50px; /* Adjust based on your design */
+    right: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 200px;
+  }
+  
+  .options-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options-menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .options-menu ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .options-menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  .options-menu ul li a:hover {
+    background-color: #f1f1f1;
+  }
+  
+.fetch-button{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .fetch-button1{
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgb(70, 182, 70);
+  }
+
+  .fetch-button1:hover{
+    background-color: rgb(237, 32, 32);
+    text-decoration:underline;
+    border: none;
+  }
+
+
+  .my-messages{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; 
+    gap: 30px;
+    background-color: bisque;
+    padding: 30px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .my-messages {
+      grid-template-columns: 1fr; 
+      grid-template-rows: auto;
+    }
+  }
+
+
+  .item {
+    background-color: lightblue;
+    padding: 5px;    
+  }
